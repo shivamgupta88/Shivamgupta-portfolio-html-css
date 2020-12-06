@@ -1,16 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@400;700&display=swap');
 
+:root{
+ --primary-color:red;   
+}
 body{
-    font-family: 'Roboto', 
-    sans-serif;
-
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
-/**  container **/
+/* container */
 .container {
-    padding-left: 1ram;
-    padding-left: 2ram;
+    padding: 0rem 1rem;
 }
+
 .container-center{
-max-width: 600px;
-margin: auto;
-} 
+    max-width: 600px;
+    margin: auto;
+}
+/* links */
+.primary-link{
+    text-decoration: none;
+    background-color:var(--primary-color) ;
+   border-radius: 0.5rem;
+color: white;
+}
+.secondary-link{
+    text-decoration: none;
+    background-color:var(--primary-color) ;
+    border-radius: 0.5;
+   border: 1px solid var
+   var(--primary-color);
+}
