@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #818CF8;
+    --primary-color: #212529;
     --dark-brown: #92400E;
    --off-white: #E5E7EB ;
+   --secondary-color: #BFDBFE;
   
 }
 
@@ -30,7 +31,7 @@ hr {
 .primary-link {
     text-decoration: none;
     color: white;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 0.5rem;
     color: white;
     color: inherit;
